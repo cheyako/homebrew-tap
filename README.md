@@ -10,6 +10,8 @@ Homebrew casks for apps by Iakov Korotenko.
 brew install --cask cheyako/tap/lirnyk
 ```
 
+If Homebrew refuses to load the cask from an untrusted tap, run `brew trust cheyako/tap` once and install again.
+
 Update with `brew upgrade --cask lirnyk`. `brew uninstall --zap --cask lirnyk` also removes profiles and settings;
 API keys stay in your Keychain until you delete them there.
 
